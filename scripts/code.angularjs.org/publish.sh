@@ -25,7 +25,7 @@ function init {
 function prepare {
 
   echo "-- Cloning code.angularjs.org"
-  git clone https://github.com/angular/code.angularjs.org $REPO_DIR --depth=1
+  git clone https://github.com/kalyade/code.angularjs.org $REPO_DIR --depth=1
 
   echo "-- Updating code.angularjs.org"
 

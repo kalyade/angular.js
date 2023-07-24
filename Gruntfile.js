@@ -73,10 +73,10 @@ module.exports = function(grunt) {
     deployVersion = NG_VERSION.distTag === 'latest' ? 'snapshot-stable' : 'snapshot';
   }
 
-  if (versionInfo.cdnVersion == null) {
-    throw new Error('Unable to read CDN version, are you offline or has the CDN not been properly pushed?\n' +
-                    'Perhaps you want to set the NG1_BUILD_NO_REMOTE_VERSION_REQUESTS environment variable?');
-  }
+  // if (versionInfo.cdnVersion == null) {
+  //   throw new Error('Unable to read CDN version, are you offline or has the CDN not been properly pushed?\n' +
+  //                   'Perhaps you want to set the NG1_BUILD_NO_REMOTE_VERSION_REQUESTS environment variable?');
+  // }
 
   //config
   grunt.initConfig({

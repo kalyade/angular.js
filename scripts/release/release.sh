@@ -52,7 +52,7 @@ function phase {
     build
   fi
 
-  ../code.angularjs.org/publish.sh $ACTION_ARG $VERBOSE_ARG
+  # ../code.angularjs.org/publish.sh $ACTION_ARG $VERBOSE_ARG
   ../bower/publish.sh $ACTION_ARG $VERBOSE_ARG
 }
 
